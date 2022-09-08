@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		4DA8859528C8A4ED006A9346 /* XiaomiScooterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA8859428C8A4ED006A9346 /* XiaomiScooterApp.swift */; };
-		4DA8859728C8A4ED006A9346 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA8859628C8A4ED006A9346 /* ContentView.swift */; };
+		4DA8859728C8A4ED006A9346 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA8859628C8A4ED006A9346 /* HomeView.swift */; };
 		4DA8859928C8A4EE006A9346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA8859828C8A4EE006A9346 /* Assets.xcassets */; };
 		4DA8859C28C8A4EE006A9346 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA8859B28C8A4EE006A9346 /* Preview Assets.xcassets */; };
+		4DA8CB2728CA2E31003E7EF5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA8CB2628CA2E31003E7EF5 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4DA8859128C8A4ED006A9346 /* XiaomiScooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaomiScooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA8859428C8A4ED006A9346 /* XiaomiScooterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiaomiScooterApp.swift; sourceTree = "<group>"; };
-		4DA8859628C8A4ED006A9346 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4DA8859628C8A4ED006A9346 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4DA8859828C8A4EE006A9346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA8859B28C8A4EE006A9346 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DA8CB2628CA2E31003E7EF5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				4DA8859428C8A4ED006A9346 /* XiaomiScooterApp.swift */,
-				4DA8859628C8A4ED006A9346 /* ContentView.swift */,
+				4DA8859628C8A4ED006A9346 /* HomeView.swift */,
+				4DA8CB2628CA2E31003E7EF5 /* MainView.swift */,
 				4DA8859828C8A4EE006A9346 /* Assets.xcassets */,
 				4DA8859A28C8A4EE006A9346 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DA8859728C8A4ED006A9346 /* ContentView.swift in Sources */,
+				4DA8859728C8A4ED006A9346 /* HomeView.swift in Sources */,
+				4DA8CB2728CA2E31003E7EF5 /* MainView.swift in Sources */,
 				4DA8859528C8A4ED006A9346 /* XiaomiScooterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct XiaomiScooterApp: App {
+    // Sample data
+    @State static var batteryLevel = 100
+    @State static var scooterName = "Mi Scooter Pro 2"
+    @State static var isLocked = false
+
     var body: some Scene {
         WindowGroup {
-            ContentView(isLocked: false)
+            MainView(isLocked: XiaomiScooterApp.$isLocked, batteryLevel: XiaomiScooterApp.$batteryLevel, scooterName: XiaomiScooterApp.$scooterName)
         }
     }
 }

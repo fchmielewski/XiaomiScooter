@@ -6,28 +6,29 @@
 //
 import SwiftUI
 
-struct ContentView: View {
-    var isLocked: Bool
+struct HomeView: View {
+    @Binding var isLocked: Bool
+    @Binding var batteryLevel: Int
 
     var body: some View {
         VStack {
-            Label("100%, DTE 45km", systemImage: "battery.100")
+            Label("\(batteryLevel)%", systemImage: "battery.100")
             Image("mipro2")
                 .resizable()
                 .frame(width: 320, height: 320)
+                .padding()
             Button(isLocked ? "UNLOCK" : "LOCK") {
                 print("Lock button tapped!")
             }
             .buttonStyle(.borderedProminent)
         }
-        .navigationTitle("Mi Scooter Pro 2")
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            ContentView(isLocked: true)
         }
     }
 }
